@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		597359AF19DD107A00143CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597359AE19DD107A00143CDA /* Foundation.framework */; };
+		597359B119DD107A00143CDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597359B019DD107A00143CDA /* CoreGraphics.framework */; };
+		597359B319DD107A00143CDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597359B219DD107A00143CDA /* UIKit.framework */; };
+		597359B919DD107A00143CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 597359B719DD107A00143CDA /* InfoPlist.strings */; };
+		597359BB19DD107A00143CDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 597359BA19DD107A00143CDA /* main.m */; };
+		597359BF19DD107A00143CDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 597359BE19DD107A00143CDA /* AppDelegate.m */; };
+		597359C219DD107A00143CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597359C019DD107A00143CDA /* Main.storyboard */; };
+		597359C519DD107A00143CDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 597359C419DD107A00143CDA /* ViewController.m */; };
+		597359C719DD107A00143CDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597359C619DD107A00143CDA /* Images.xcassets */; };
+		597359CE19DD107A00143CDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597359CD19DD107A00143CDA /* XCTest.framework */; };
+		597359CF19DD107A00143CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597359AE19DD107A00143CDA /* Foundation.framework */; };
+		597359D019DD107A00143CDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 597359B219DD107A00143CDA /* UIKit.framework */; };
+		597359D819DD107A00143CDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 597359D619DD107A00143CDA /* InfoPlist.strings */; };
+		597359DA19DD107A00143CDA /* earthquake_promptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 597359D919DD107A00143CDA /* earthquake_promptTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		597359D119DD107A00143CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 597359A319DD107A00143CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 597359AA19DD107A00143CDA;
+			remoteInfo = earthquake_prompt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		597359AB19DD107A00143CDA /* earthquake_prompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = earthquake_prompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		597359AE19DD107A00143CDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		597359B019DD107A00143CDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		597359B219DD107A00143CDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		597359B619DD107A00143CDA /* earthquake_prompt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "earthquake_prompt-Info.plist"; sourceTree = "<group>"; };
+		597359B819DD107A00143CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		597359BA19DD107A00143CDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		597359BC19DD107A00143CDA /* earthquake_prompt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "earthquake_prompt-Prefix.pch"; sourceTree = "<group>"; };
+		597359BD19DD107A00143CDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		597359BE19DD107A00143CDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		597359C119DD107A00143CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		597359C319DD107A00143CDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		597359C419DD107A00143CDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		597359C619DD107A00143CDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		597359CC19DD107A00143CDA /* earthquake_promptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = earthquake_promptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		597359CD19DD107A00143CDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		597359D519DD107A00143CDA /* earthquake_promptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "earthquake_promptTests-Info.plist"; sourceTree = "<group>"; };
+		597359D719DD107A00143CDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		597359D919DD107A00143CDA /* earthquake_promptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = earthquake_promptTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		597359A819DD107A00143CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597359B119DD107A00143CDA /* CoreGraphics.framework in Frameworks */,
+				597359B319DD107A00143CDA /* UIKit.framework in Frameworks */,
+				597359AF19DD107A00143CDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597359C919DD107A00143CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597359CE19DD107A00143CDA /* XCTest.framework in Frameworks */,
+				597359D019DD107A00143CDA /* UIKit.framework in Frameworks */,
+				597359CF19DD107A00143CDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		597359A219DD107A00143CDA = {
+			isa = PBXGroup;
+			children = (
+				597359B419DD107A00143CDA /* earthquake_prompt */,
+				597359D319DD107A00143CDA /* earthquake_promptTests */,
+				597359AD19DD107A00143CDA /* Frameworks */,
+				597359AC19DD107A00143CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		597359AC19DD107A00143CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				597359AB19DD107A00143CDA /* earthquake_prompt.app */,
+				597359CC19DD107A00143CDA /* earthquake_promptTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		597359AD19DD107A00143CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				597359AE19DD107A00143CDA /* Foundation.framework */,
+				597359B019DD107A00143CDA /* CoreGraphics.framework */,
+				597359B219DD107A00143CDA /* UIKit.framework */,
+				597359CD19DD107A00143CDA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		597359B419DD107A00143CDA /* earthquake_prompt */ = {
+			isa = PBXGroup;
+			children = (
+				597359BD19DD107A00143CDA /* AppDelegate.h */,
+				597359BE19DD107A00143CDA /* AppDelegate.m */,
+				597359C019DD107A00143CDA /* Main.storyboard */,
+				597359C319DD107A00143CDA /* ViewController.h */,
+				597359C419DD107A00143CDA /* ViewController.m */,
+				597359C619DD107A00143CDA /* Images.xcassets */,
+				597359B519DD107A00143CDA /* Supporting Files */,
+			);
+			path = earthquake_prompt;
+			sourceTree = "<group>";
+		};
+		597359B519DD107A00143CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				597359B619DD107A00143CDA /* earthquake_prompt-Info.plist */,
+				597359B719DD107A00143CDA /* InfoPlist.strings */,
+				597359BA19DD107A00143CDA /* main.m */,
+				597359BC19DD107A00143CDA /* earthquake_prompt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		597359D319DD107A00143CDA /* earthquake_promptTests */ = {
+			isa = PBXGroup;
+			children = (
+				597359D919DD107A00143CDA /* earthquake_promptTests.m */,
+				597359D419DD107A00143CDA /* Supporting Files */,
+			);
+			path = earthquake_promptTests;
+			sourceTree = "<group>";
+		};
+		597359D419DD107A00143CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				597359D519DD107A00143CDA /* earthquake_promptTests-Info.plist */,
+				597359D619DD107A00143CDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		597359AA19DD107A00143CDA /* earthquake_prompt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597359DD19DD107A00143CDA /* Build configuration list for PBXNativeTarget "earthquake_prompt" */;
+			buildPhases = (
+				597359A719DD107A00143CDA /* Sources */,
+				597359A819DD107A00143CDA /* Frameworks */,
+				597359A919DD107A00143CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = earthquake_prompt;
+			productName = earthquake_prompt;
+			productReference = 597359AB19DD107A00143CDA /* earthquake_prompt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		597359CB19DD107A00143CDA /* earthquake_promptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597359E019DD107A00143CDA /* Build configuration list for PBXNativeTarget "earthquake_promptTests" */;
+			buildPhases = (
+				597359C819DD107A00143CDA /* Sources */,
+				597359C919DD107A00143CDA /* Frameworks */,
+				597359CA19DD107A00143CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				597359D219DD107A00143CDA /* PBXTargetDependency */,
+			);
+			name = earthquake_promptTests;
+			productName = earthquake_promptTests;
+			productReference = 597359CC19DD107A00143CDA /* earthquake_promptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		597359A319DD107A00143CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AtsuyaSato;
+				TargetAttributes = {
+					597359CB19DD107A00143CDA = {
+						TestTargetID = 597359AA19DD107A00143CDA;
+					};
+				};
+			};
+			buildConfigurationList = 597359A619DD107A00143CDA /* Build configuration list for PBXProject "earthquake_prompt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 597359A219DD107A00143CDA;
+			productRefGroup = 597359AC19DD107A00143CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				597359AA19DD107A00143CDA /* earthquake_prompt */,
+				597359CB19DD107A00143CDA /* earthquake_promptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		597359A919DD107A00143CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597359C719DD107A00143CDA /* Images.xcassets in Resources */,
+				597359B919DD107A00143CDA /* InfoPlist.strings in Resources */,
+				597359C219DD107A00143CDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597359CA19DD107A00143CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597359D819DD107A00143CDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		597359A719DD107A00143CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597359C519DD107A00143CDA /* ViewController.m in Sources */,
+				597359BF19DD107A00143CDA /* AppDelegate.m in Sources */,
+				597359BB19DD107A00143CDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597359C819DD107A00143CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597359DA19DD107A00143CDA /* earthquake_promptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		597359D219DD107A00143CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 597359AA19DD107A00143CDA /* earthquake_prompt */;
+			targetProxy = 597359D119DD107A00143CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		597359B719DD107A00143CDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597359B819DD107A00143CDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		597359C019DD107A00143CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597359C119DD107A00143CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		597359D619DD107A00143CDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597359D719DD107A00143CDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		597359DB19DD107A00143CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		597359DC19DD107A00143CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		597359DE19DD107A00143CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "earthquake_prompt/earthquake_prompt-Prefix.pch";
+				INFOPLIST_FILE = "earthquake_prompt/earthquake_prompt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		597359DF19DD107A00143CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "earthquake_prompt/earthquake_prompt-Prefix.pch";
+				INFOPLIST_FILE = "earthquake_prompt/earthquake_prompt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		597359E119DD107A00143CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/earthquake_prompt.app/earthquake_prompt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "earthquake_prompt/earthquake_prompt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "earthquake_promptTests/earthquake_promptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		597359E219DD107A00143CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/earthquake_prompt.app/earthquake_prompt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "earthquake_prompt/earthquake_prompt-Prefix.pch";
+				INFOPLIST_FILE = "earthquake_promptTests/earthquake_promptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		597359A619DD107A00143CDA /* Build configuration list for PBXProject "earthquake_prompt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597359DB19DD107A00143CDA /* Debug */,
+				597359DC19DD107A00143CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		597359DD19DD107A00143CDA /* Build configuration list for PBXNativeTarget "earthquake_prompt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597359DE19DD107A00143CDA /* Debug */,
+				597359DF19DD107A00143CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		597359E019DD107A00143CDA /* Build configuration list for PBXNativeTarget "earthquake_promptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597359E119DD107A00143CDA /* Debug */,
+				597359E219DD107A00143CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 597359A319DD107A00143CDA /* Project object */;
+}
