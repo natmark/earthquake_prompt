@@ -379,6 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "earthquake_prompt/earthquake_prompt-Prefix.pch";
 				INFOPLIST_FILE = "earthquake_prompt/earthquake_prompt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "earthquake_prompt/earthquake_prompt-Prefix.pch";
 				INFOPLIST_FILE = "earthquake_prompt/earthquake_prompt-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +458,7 @@
 				597359DF19DD107A00143CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		597359E019DD107A00143CDA /* Build configuration list for PBXNativeTarget "earthquake_promptTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +467,7 @@
 				597359E219DD107A00143CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
